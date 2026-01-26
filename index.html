@@ -6,6 +6,11 @@
   <meta name="description" content="Harsha Gajja — GitHub + LinkedIn." />
   <meta name="theme-color" content="#000000" />
   <title>Harsha Gajja</title>
+
+  <!-- Load fonts (Space Grotesk + Sora) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Sora:wght@400;500;600&display=swap" rel="stylesheet">
   
   <!-- Galaxy favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3CradialGradient id='galaxy' cx='50%25' cy='50%25'%3E%3Cstop offset='0%25' stop-color='%2322D3EE' stop-opacity='0.9'/%3E%3Cstop offset='40%25' stop-color='%23C084FC' stop-opacity='0.7'/%3E%3Cstop offset='70%25' stop-color='%234F46E5' stop-opacity='0.5'/%3E%3Cstop offset='100%25' stop-color='%23000000' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='50' cy='50' r='42' fill='url(%23galaxy)' opacity='0.9'/%3E%3Ccircle cx='45' cy='40' r='2.2' fill='%23FFFFFF' opacity='0.9'/%3E%3Ccircle cx='55' cy='35' r='1.8' fill='%23FFFFFF' opacity='0.8'/%3E%3Ccircle cx='38' cy='50' r='1.6' fill='%2322D3EE' opacity='0.9'/%3E%3Ccircle cx='62' cy='55' r='2' fill='%23C084FC' opacity='0.9'/%3E%3Ccircle cx='50' cy='30' r='1.4' fill='%23FFFFFF' opacity='0.7'/%3E%3Ccircle cx='32' cy='50' r='1.5' fill='%2322D3EE' opacity='0.8'/%3E%3Ccircle cx='68' cy='50' r='1.3' fill='%23FFFFFF' opacity='0.6'/%3E%3Ccircle cx='48' cy='62' r='1.2' fill='%23C084FC' opacity='0.7'/%3E%3Ccircle cx='52' cy='68' r='1' fill='%23FFFFFF' opacity='0.5'/%3E%3C/svg%3E" />
@@ -31,7 +36,8 @@
     body{
       margin:0;
       color:var(--txt);
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      /* Body font -> Sora */
+      font-family: "Sora", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
       background:
         radial-gradient(1200px 800px at 20% 10%, rgba(34,211,238,.10), transparent 60%),
         radial-gradient(900px 700px at 85% 25%, rgba(192,132,252,.08), transparent 55%),
@@ -242,6 +248,8 @@
       letter-spacing: -0.02em;
       color: var(--txt);
       font-weight: 750;
+      /* Headline font -> Space Grotesk */
+      font-family: "Space Grotesk", "Sora", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
       text-shadow:
         0 0 10px rgba(34,211,238,.14),
         0 0 18px rgba(192,132,252,.10),
